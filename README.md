@@ -16,5 +16,6 @@ Get-WindowsAutopilotInfo -OutputFile AutopilotHWID.csv
 ## Usage:
 1) Download file from releases page (here)
 2) Run EXE `as administrator/elevated permissions`
-3) Press "Generate"
+3) Press "Generate" `File will generate in same path as exe as "AutopilotHWID.csv`
+
 That's it!
