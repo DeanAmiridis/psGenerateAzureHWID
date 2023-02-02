@@ -5,7 +5,7 @@
 This is a simple UI tool that follows the `official microsoft manual process` to generate the AzureHWID CSV on workstations (shown below).
 _Rather the HWID directory be made, it generates the AutopilotHWID.csv in the location of the exe._
 
-```
+```powershell
 New-Item -Type Directory -Path "C:\HWID"
 Set-Location -Path "C:\HWID"
 $env:Path += ";C:\Program Files\WindowsPowerShell\Scripts"
